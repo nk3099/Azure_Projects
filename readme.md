@@ -8,8 +8,8 @@ The objective is to build an **Azure Data Factory (ADF)** solution that:
 2. Moves those files from `source` to `destination/csvFiles`.
 3. Deletes the original files from `source` after successful copying.
 4. Fetches CSV files from **Git via HTTPS** and places them directly into `destination/csvFiles`.
-5. Identifies files whose names start with `Sales`.
-6. Copies only those selected `Sales` files to the `reporting` container.
+5. Identifies files whose names start with `Fact`.
+6. Copies only those selected `Fact` files to the `reporting` container.
 
 ---
 
@@ -150,7 +150,7 @@ Example:
 
 ```text
 Git
-├── Sales_Mar.csv
+├── Fact_Sales_1.csv
 ├── Sales_Apr.csv
 └── Customer.csv
 
@@ -185,7 +185,7 @@ destination/csvFiles/
 The requirement is to select only files whose names start with:
 
 ```text
-Sales
+Fact_Sales
 ```
 
 Therefore:
