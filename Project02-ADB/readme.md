@@ -20,4 +20,6 @@ Without metastore admin
 with METastore admin
 gest access to create Catalog
 <img width="477" height="410" alt="image" src="https://github.com/user-attachments/assets/847cace0-a3f7-4836-9756-b27578f80dd7" />
+<img width="764" height="483" alt="image" src="https://github.com/user-attachments/assets/8d71f1e1-5872-4649-8a61-b94cdf200a3d" />
+
 
