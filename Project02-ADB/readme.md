@@ -23,3 +23,54 @@ gest access to create Catalog
 <img width="764" height="483" alt="image" src="https://github.com/user-attachments/assets/8d71f1e1-5872-4649-8a61-b94cdf200a3d" />
 
 
+Volume path
+
+A Unity Catalog volume is accessed like:
+
+/Volumes/company/sales/raw_files/
+
+For example:
+
+df = spark.read.csv(
+    "/Volumes/company/sales/raw_files/orders.csv"
+)
+Types of Volumes
+
+There are two important types:
+
+Type	Where data is stored	Who manages storage location
+Managed Volume	Unity Catalog-managed storage	Databricks/UC
+External Volume	Your existing cloud storage location	You
+Volume vs Table
+                    Unity Catalog
+                         │
+              ┌──────────┴──────────┐
+              ↓                     ↓
+           TABLE                  VOLUME
+              │                     │
+       Structured data          Files
+              │                     │
+       rows + columns        CSV, JSON, PDF, etc.
+Volume vs old DBFS mount
+
+This is particularly important given what you were asking earlier:
+
+Old approach:
+
+ADLS
+  ↓
+DBFS Mount
+  ↓
+/mnt/raw/
+
+Modern Unity Catalog approach:
+
+Unity Catalog
+      ↓
+Volume
+      ↓
+/Volumes/catalog/schema/volume/
+      ↓
+ADLS
+
+The big advantage is that Volumes are governed by Unity Catalog, so you can control who can access the files using Unity Catalog permissions.
