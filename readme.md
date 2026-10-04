@@ -817,5 +817,8 @@ Azure Subscription
 
 > **ADF Project 1 ingests CSV files from both manual ADLS uploads and Git via HTTPS, consolidates them into `destination/csvFiles`, and uses Metadata + ForEach + dynamic dataset parameters to identify and copy only `Sales*` files into the `reporting` container.**
 
+<img width="1470" height="716" alt="image" src="https://github.com/user-attachments/assets/d87bbfdb-ae03-4c23-aa6c-db248db2e5d4" />
+
+
 ```
 ```
