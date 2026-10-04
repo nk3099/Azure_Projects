@@ -1,0 +1,31 @@
+{
+	"name": "source_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HTTP_LS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Git_filename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "nk3099/ADF-Pipelines/refs/heads/main/raw-data/@{dataset().Git_filename}",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
