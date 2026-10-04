@@ -1,0 +1,17 @@
+{
+	"name": "SilverTable_SQL script 3",
+	"properties": {
+		"content": {
+			"query": "-- DROP EXTERNAL TABLE silver.SilverTable\n\n\n--this will now run and create table, only if table and schemas not present in  View -> System views -> sys.schemas & sys.tables repositories\n-- i.e if table didn't existed. If exists after once run, it will not recreate table again\nSELECT\nt.name,t.schema_id,\ns.schema_id,s.name\nFROM sys.tables t \nJOIN sys.schemas s\nON t.schema_id = s.schema_id\n\n\nIF NOT EXISTS (SELECT * FROM sys.tables t JOIN sys.schemas s ON t.schema_id=s.schema_id\nWHERE t.name='SilverTable' AND s.name='silver')\n    CREATE EXTERNAL TABLE silver.SilverTable\n    (\n        OrderID VARCHAR(100),\n        OrderDate DATE,\n        CustomerID VARCHAR(100),\n        CustomerName VARCHAR(100),\n        CustomerEmail VARCHAR(100),\n        ProductID VARCHAR(100),\n        ProductName VARCHAR(100),\n        ProductCategory VARCHAR(100),\n        RegionID VARCHAR(100),\n        Country VARCHAR(100),\n        Quantity VARCHAR(100),\n        UnitPrice INT,\n        TotalAmount INT,\n        Domain VARCHAR(100)\n    )\n    WITH\n    (\n        LOCATION='enrichedSales',\n        DATA_SOURCE=silver_source,\n        FILE_FORMAT = parquet\n    )\n\nSELECT * FROM silver.SilverTable\n\n--if to query the files directly instead of table: Openrowset()\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "salesDWH",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
