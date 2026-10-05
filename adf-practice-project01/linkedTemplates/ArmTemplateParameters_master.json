@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-practice-project01"
+		},
+		"Adf_ADLS2_LS_accountKey": {
+			"value": ""
+		},
+		"Adf_ADLS2_LS_properties_typeProperties_url": {
+			"value": "https://adlspracticeproject01.dfs.core.windows.net/"
+		},
+		"HTTP_LS_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"detect_incomingFile_StorageEventTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/b8035979-0372-4c5a-a906-b01e6b39ed48/resourceGroups/RG-adf_practice/providers/Microsoft.Storage/storageAccounts/adlspracticeproject01"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
