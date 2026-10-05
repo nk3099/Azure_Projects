@@ -1,5 +1,7 @@
 Azure Project 
 Spoty - End to End Azure Data Engineering
+<img width="1322" height="644" alt="image" src="https://github.com/user-attachments/assets/bb4a150e-dccd-4cc8-a4f1-7e6a95f6a99c" />
+
 
 <img width="2642" height="1156" alt="image" src="https://github.com/user-attachments/assets/2364c277-8906-4550-9cd3-e84f9972080e" />
 <img width="1250" height="802" alt="image" src="https://github.com/user-attachments/assets/9cd9e575-5ba9-4d4e-9fd7-01b170f8e37e" />
