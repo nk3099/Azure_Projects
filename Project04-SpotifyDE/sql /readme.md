@@ -12,3 +12,7 @@ ALTER TABLE [dbo].[DimTrack]
 DROP CONSTRAINT <constraintId>
 
 <img width="1470" height="664" alt="image" src="https://github.com/user-attachments/assets/12cc441f-8d0f-40ad-8527-965d620610fb" />
+
+
+## And able to insert new Incremental data
+<img width="1469" height="716" alt="image" src="https://github.com/user-attachments/assets/c8566528-917c-4520-b14b-90ecb34b2ac2" />
