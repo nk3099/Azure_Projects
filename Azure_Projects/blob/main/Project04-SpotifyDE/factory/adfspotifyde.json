@@ -1,0 +1,15 @@
+{
+	"name": "adfspotifyde",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ba8e2858-5cd7-4a26-be78-fd0efd51f7c7",
+		"tenantId": "46552be5-9e52-4c43-9ca6-61edab23b527"
+	}
+}
