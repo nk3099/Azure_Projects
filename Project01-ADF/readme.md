@@ -817,5 +817,10 @@ Azure Subscription
 
 > **ADF Project 1 ingests CSV files from both manual ADLS uploads and Git via HTTPS, consolidates them into `destination/csvFiles`, and uses Metadata + ForEach + dynamic dataset parameters to identify and copy only `Sales*` files into the `reporting` container.**
 
+# <a name="workflow-demo"></a> Workflow Demo
+[![Workflow Demo](https://img.youtube.com/vi/CNlU7BRUIFY/0.jpg)](https://www.youtube.com/watch?v=CNlU7BRUIFY) #to be changed
+
+
+
 ```
 ```
