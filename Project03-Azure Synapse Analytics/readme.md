@@ -1,3 +1,5 @@
+https://github.com/nk3099/Azure_Projects/tree/workspace_publish
+
 <img width="1318" height="675" alt="image" src="https://github.com/user-attachments/assets/8deea5c4-19bb-4e42-91d8-e77b56b76da0" />
 
 <img width="1320" height="684" alt="image" src="https://github.com/user-attachments/assets/5890cdb8-5f1e-45c0-b9cd-a33e7899177c" />
