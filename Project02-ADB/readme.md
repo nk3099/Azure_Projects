@@ -74,3 +74,9 @@ Volume
 ADLS
 
 The big advantage is that Volumes are governed by Unity Catalog, so you can control who can access the files using Unity Catalog permissions.
+
+
+Catalog:
+Managed Table
+<img width="1470" height="717" alt="image" src="https://github.com/user-attachments/assets/eafc96d7-c87d-4480-9f51-afaa9ac87e32" />
+
