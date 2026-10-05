@@ -1,5 +1,5 @@
 Azure Project 
-Spoty - End to End Azure Data Engineering
+Spotify - End to End Azure Data Engineering
 <img width="1322" height="644" alt="image" src="https://github.com/user-attachments/assets/bb4a150e-dccd-4cc8-a4f1-7e6a95f6a99c" />
 
 <img width="1281" height="721" alt="image" src="https://github.com/user-attachments/assets/040a758c-761f-4ebc-94c6-ef6bc6afc963" />
