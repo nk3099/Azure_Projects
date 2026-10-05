@@ -819,6 +819,9 @@ Azure Subscription
 
 <img width="1470" height="716" alt="image" src="https://github.com/user-attachments/assets/d87bbfdb-ae03-4c23-aa6c-db248db2e5d4" />
 
+<img width="1261" height="623" alt="image" src="https://github.com/user-attachments/assets/8cacd11e-bd80-4ba6-9b96-422e019186f4" />
+
+
 
 ```
 ```
