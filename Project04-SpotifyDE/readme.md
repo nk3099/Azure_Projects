@@ -19,3 +19,10 @@ checkpoint
 <img width="1470" height="568" alt="image" src="https://github.com/user-attachments/assets/634fd101-0af7-4cd8-b6a0-a8b4651a7252" />
 
 <img width="1298" height="501" alt="image" src="https://github.com/user-attachments/assets/f073f882-4069-4602-ab45-d16f525f2b72" />
+
+
+SCD2
+Gold: DimTrack
+<img width="1470" height="718" alt="image" src="https://github.com/user-attachments/assets/b1572b8e-65c7-470c-9ef6-014722eed2d8" />
+
+<img width="1470" height="697" alt="image" src="https://github.com/user-attachments/assets/c79b39ad-1496-47fe-a4fb-715adb6bf24b" />
